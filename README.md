@@ -81,7 +81,9 @@ in your User.java. And you need not create table t_user_social
     中更改
 
     mvn build
-    mvn clean install -DskipTests -U
+       mvn clean install -DskipTests -U
+       or
+       mvn clean install -Dscale=/ (if you can connect to your rabbitmq server)
 
     源码在src目录下
     demo在test目录下
